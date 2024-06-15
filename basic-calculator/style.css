@@ -2,16 +2,27 @@
     box-sizing: border-box;
     margin: 0;
   }
-  
+
+  body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(26,25,48);
+    background: linear-gradient(90deg, rgba(26,25,48,1) 0%, rgba(76,93,186,1) 39%, rgba(1,195,244,1) 78%, rgba(0,212,255,1) 100%);
+  }
+
   .calculator {
-    background-color: #f2f2f2;
+    background-color: transparent;
     padding: 20px;
     max-width: 400px;
     margin: 0 auto;
     border: solid 1px #ccc;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 5rem rgba(0, 0, 0, 0.3);
     border-radius: 5px;
     margin-top: 40px;
+    backdrop-filter: blur(20px);
   }
   
   #result{
