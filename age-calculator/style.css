@@ -2,15 +2,10 @@ body {
     margin: 0;
     padding: 20px;
     font-family: "Montserrat", sans-serif;
-<<<<<<< HEAD
     background-color: #f7f7f7;
     display: flex;
     align-items: center;
     justify-content: center;
-=======
-    background-color: #191f36;
-    color:#fff;
->>>>>>> 3b6ca945fc8d4487c8b2dabce71fa6005651677a
   }
   
   .container {
